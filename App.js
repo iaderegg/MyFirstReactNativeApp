@@ -1,13 +1,13 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import LoginForm from './src/components/LoginForm';
+import Greet from './src/components/Greet';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hello!</Text>
-      <Text>Hello World!</Text>
-      <LoginForm />
+      <Text>My first React Native App</Text>
+      <Greet name="Iader G" />
+      <Greet name="User 2" />
+      <Greet />
     </View>
   );
 }
