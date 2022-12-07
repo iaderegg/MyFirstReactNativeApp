@@ -1,4 +1,4 @@
-import { Button, View, Text } from "react-native";
+import { Button, SafeAreaView, Text } from "react-native";
 
 export default function HomeScreen({ navigation }) {
 
@@ -7,10 +7,10 @@ export default function HomeScreen({ navigation }) {
   }
 
   return (
-    <View>
+    <SafeAreaView>
       <Text>Home Screen</Text>
       <Button title="Settings" onPress={goToSettings} />
-    </View>
+    </SafeAreaView>
   );
 }
 
