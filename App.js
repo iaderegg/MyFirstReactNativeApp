@@ -5,9 +5,9 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>My first React Native App</Text>
-      <Greet name="Iader G" />
-      <Greet name="User 2" />
-      <Greet />
+      <Greet firstname="Iader" lastname="Garcia" />
+      <Greet firstname="User" lastname="Two" />
+      <Greet firstname="User" lastname="Three" />
     </View>
   );
 }
